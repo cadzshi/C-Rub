@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Clean Rubbish</string>
+    <string name="landing">Landing</string>
+    <string name="landing_welcome_msg">Welcome to\nC-Rub</string>
+    <string name="landing_caption_msg">Welcome to C-Rub, the best, easiest, and most effective solution for identifying and managing waste with our app. Together with C-Rub, let\'s create a cleaner and greener environment!</string>
+
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="register_msg">Let\'s Register Your \nAccount</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+
+    <string name="login_msg">Welcome Back!</string>
+    <string name="login_validation_msg">Don’t have an account yet?</string>
+    <string name="register_here">Register Here</string>
+    <string name="login_here">Login Here\n</string>
+    <string name="register_validation_msg">Already have an account?</string>
+</resources>
