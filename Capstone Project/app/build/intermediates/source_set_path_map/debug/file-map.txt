@@ -1,0 +1,34 @@
+com.bangkit.capstoneproject.cleanrubbish.app-lifecycle-viewmodel-savedstate-2.6.2-0 C:\Users\Rosad\.gradle\caches\transforms-3\1eaf684bbe3371433d92e5379ad60a4e\transformed\lifecycle-viewmodel-savedstate-2.6.2\res
+com.bangkit.capstoneproject.cleanrubbish.app-lifecycle-livedata-2.6.2-1 C:\Users\Rosad\.gradle\caches\transforms-3\227ad61b71c665872005516612b89a29\transformed\lifecycle-livedata-2.6.2\res
+com.bangkit.capstoneproject.cleanrubbish.app-coordinatorlayout-1.1.0-2 C:\Users\Rosad\.gradle\caches\transforms-3\2b0959dc2a15a43f6e92c044116da025\transformed\coordinatorlayout-1.1.0\res
+com.bangkit.capstoneproject.cleanrubbish.app-material-1.12.0-3 C:\Users\Rosad\.gradle\caches\transforms-3\337e34332cf4bec5cb62ffb73e0c3b27\transformed\material-1.12.0\res
+com.bangkit.capstoneproject.cleanrubbish.app-cardview-1.0.0-4 C:\Users\Rosad\.gradle\caches\transforms-3\425c79b41c5100e4c9e6d62d316150ce\transformed\cardview-1.0.0\res
+com.bangkit.capstoneproject.cleanrubbish.app-viewpager2-1.0.0-5 C:\Users\Rosad\.gradle\caches\transforms-3\43e07bfc22f434b6829fa482b36478eb\transformed\viewpager2-1.0.0\res
+com.bangkit.capstoneproject.cleanrubbish.app-lifecycle-viewmodel-2.6.2-6 C:\Users\Rosad\.gradle\caches\transforms-3\49aac9ab44dfc396f43dd76321bfb186\transformed\lifecycle-viewmodel-2.6.2\res
+com.bangkit.capstoneproject.cleanrubbish.app-drawerlayout-1.1.1-7 C:\Users\Rosad\.gradle\caches\transforms-3\5546cce9dcb60f35250f341d0240034f\transformed\drawerlayout-1.1.1\res
+com.bangkit.capstoneproject.cleanrubbish.app-recyclerview-1.1.0-8 C:\Users\Rosad\.gradle\caches\transforms-3\5b5993d18bcbb605c3c00d6e0023f074\transformed\recyclerview-1.1.0\res
+com.bangkit.capstoneproject.cleanrubbish.app-appcompat-1.6.1-9 C:\Users\Rosad\.gradle\caches\transforms-3\60b492a510ec931c8abbf232e0a5612c\transformed\appcompat-1.6.1\res
+com.bangkit.capstoneproject.cleanrubbish.app-lifecycle-livedata-core-2.6.2-10 C:\Users\Rosad\.gradle\caches\transforms-3\6f1df18294706fe53a074eedd82892a0\transformed\lifecycle-livedata-core-2.6.2\res
+com.bangkit.capstoneproject.cleanrubbish.app-lifecycle-runtime-2.6.2-11 C:\Users\Rosad\.gradle\caches\transforms-3\89fae5491a72a7179849c8af2f6df89e\transformed\lifecycle-runtime-2.6.2\res
+com.bangkit.capstoneproject.cleanrubbish.app-annotation-experimental-1.4.0-12 C:\Users\Rosad\.gradle\caches\transforms-3\935ca2afead505062205016701139742\transformed\annotation-experimental-1.4.0\res
+com.bangkit.capstoneproject.cleanrubbish.app-emoji2-1.2.0-13 C:\Users\Rosad\.gradle\caches\transforms-3\9dba3473c2e7ab91e493b9371a42d8d3\transformed\emoji2-1.2.0\res
+com.bangkit.capstoneproject.cleanrubbish.app-constraintlayout-2.1.4-14 C:\Users\Rosad\.gradle\caches\transforms-3\a1c5e08825da8b3508fd7a457a086ebc\transformed\constraintlayout-2.1.4\res
+com.bangkit.capstoneproject.cleanrubbish.app-core-ktx-1.13.1-15 C:\Users\Rosad\.gradle\caches\transforms-3\b76e5a7dfe7756ead419f7ef145b568e\transformed\core-ktx-1.13.1\res
+com.bangkit.capstoneproject.cleanrubbish.app-startup-runtime-1.1.1-16 C:\Users\Rosad\.gradle\caches\transforms-3\bd50c3342304ece3fc0f4987dbf8e037\transformed\startup-runtime-1.1.1\res
+com.bangkit.capstoneproject.cleanrubbish.app-transition-1.5.0-17 C:\Users\Rosad\.gradle\caches\transforms-3\c04cd7c4dbca882bd47bb8ef3eae1c09\transformed\transition-1.5.0\res
+com.bangkit.capstoneproject.cleanrubbish.app-activity-1.8.0-18 C:\Users\Rosad\.gradle\caches\transforms-3\c14829fa2f129e4c89cf5945064fe2f3\transformed\activity-1.8.0\res
+com.bangkit.capstoneproject.cleanrubbish.app-core-1.13.1-19 C:\Users\Rosad\.gradle\caches\transforms-3\d16141837b1dfced26fb2d5628bc2c81\transformed\core-1.13.1\res
+com.bangkit.capstoneproject.cleanrubbish.app-savedstate-1.2.1-20 C:\Users\Rosad\.gradle\caches\transforms-3\dd5bf7646a22a18020a2053e33d32a88\transformed\savedstate-1.2.1\res
+com.bangkit.capstoneproject.cleanrubbish.app-fragment-1.3.6-21 C:\Users\Rosad\.gradle\caches\transforms-3\e2913d16079ecd795d35ebd21770d0ec\transformed\fragment-1.3.6\res
+com.bangkit.capstoneproject.cleanrubbish.app-emoji2-views-helper-1.2.0-22 C:\Users\Rosad\.gradle\caches\transforms-3\e3779211110e7e7363a092096e8e5517\transformed\emoji2-views-helper-1.2.0\res
+com.bangkit.capstoneproject.cleanrubbish.app-core-runtime-2.2.0-23 C:\Users\Rosad\.gradle\caches\transforms-3\ee63aad40962667e9ebfadbe25b1116c\transformed\core-runtime-2.2.0\res
+com.bangkit.capstoneproject.cleanrubbish.app-profileinstaller-1.3.0-24 C:\Users\Rosad\.gradle\caches\transforms-3\ee77c6148e535550acd02ec4a55fcb7f\transformed\profileinstaller-1.3.0\res
+com.bangkit.capstoneproject.cleanrubbish.app-lifecycle-process-2.6.2-25 C:\Users\Rosad\.gradle\caches\transforms-3\f65ecc3788deedbb02a8d14b7a9fa4dd\transformed\lifecycle-process-2.6.2\res
+com.bangkit.capstoneproject.cleanrubbish.app-appcompat-resources-1.6.1-26 C:\Users\Rosad\.gradle\caches\transforms-3\f880cc1c3e36c0c4b347845a9fccfd59\transformed\appcompat-resources-1.6.1\res
+com.bangkit.capstoneproject.cleanrubbish.app-pngs-27 D:\Kuliah\Semester 6\Bangkit\Code\Capstone\Capstone Project - 1\app\build\generated\res\pngs\debug
+com.bangkit.capstoneproject.cleanrubbish.app-resValues-28 D:\Kuliah\Semester 6\Bangkit\Code\Capstone\Capstone Project - 1\app\build\generated\res\resValues\debug
+com.bangkit.capstoneproject.cleanrubbish.app-packageDebugResources-29 D:\Kuliah\Semester 6\Bangkit\Code\Capstone\Capstone Project - 1\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.bangkit.capstoneproject.cleanrubbish.app-packageDebugResources-30 D:\Kuliah\Semester 6\Bangkit\Code\Capstone\Capstone Project - 1\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.bangkit.capstoneproject.cleanrubbish.app-merged_res-31 D:\Kuliah\Semester 6\Bangkit\Code\Capstone\Capstone Project - 1\app\build\intermediates\merged_res\debug
+com.bangkit.capstoneproject.cleanrubbish.app-debug-32 D:\Kuliah\Semester 6\Bangkit\Code\Capstone\Capstone Project - 1\app\src\debug\res
+com.bangkit.capstoneproject.cleanrubbish.app-main-33 D:\Kuliah\Semester 6\Bangkit\Code\Capstone\Capstone Project - 1\app\src\main\res
