@@ -1,10 +1,10 @@
-const postPredictHandler = require('../server/handler');
+const postPredictTrash = require('../server/handler');
 
 const routes = [
   {
     path: '/predict',
     method: 'POST',
-    handler: postPredictHandler,
+    handler: postPredictTrash,
     options: {
       payload: {
         allow: 'multipart/form-data',

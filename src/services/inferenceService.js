@@ -1,32 +1,33 @@
 const tf = require('@tensorflow/tfjs-node');
 const InputError = require('../exceptions/InputError');
 
-async function predictClassification(model, image) {
+async function predictTrash(model, image) {
   try {
     const tensor = tf.node
       .decodeJpeg(image)
-      .resizeNearestNeighbor([null, 224, 224, 3])
+      .resizeNearestNeighbor([ 150, 150])
       .expandDims()
       .toFloat()
-      .div(tf.scalar(255.0));
+      .div(tf.scalar(255));
 
     const prediction = model.predict(tensor);
-    const score = await prediction.data();
+    const predict = await prediction.dataSync()[0];
 
-    let label,suggestion;
+    let label,certaintyPercentage;
+
 
 // console.log(score[0])
-    if (score[0]> 0.5){
-      label = "ORGANIK";
-      suggestion = "Buang Sampah ke sini";
+    if (predict >= 0.5){
+      label = "Recycle";
+      certaintyPercentage = (predict * 100).toFixed(2);
     } else {
-      label = "NON-ORGANIK";
-      suggestion = "Buang sampah ke sini ";
+      label = "Organic";
+      certaintyPercentage = ((1-predict) * 100).toFixed(2);
     }
-    return {label,suggestion};
+    return {label,certaintyPercentage};
   } catch (error){  
     throw new InputError("Terjadi kesalahan dalam melakukan prediksi");
   }
-}
+};
     
-module.exports = predictClassification;
+module.exports = predictTrash;
