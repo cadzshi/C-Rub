@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Classifier</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script src="script.js" defer></script>
+    <style>
+        #result {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Image Classifier</h1>
+    <input type="file" id="imageUpload" accept="image/*">
+    <br><br>
+    <img id="uploadedImage" src="#" alt="Uploaded Image" width="300" style="display:none;">
+    <br><br>
+    <button onclick="predict()">Predict</button>
+    <div id="result"></div>
+</body>
+</html>
