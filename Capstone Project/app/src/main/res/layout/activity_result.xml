@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/md_theme_onPrimary"
+    tools:context=".ui.result.ResultActivity">
+
+    <ScrollView
+        android:id="@+id/ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/top_container_solid"
+                android:padding="16dp">
+
+
+                <ImageView
+                    android:id="@+id/iv_result_scan"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:background="@drawable/container_solid_surface"
+                    android:contentDescription="@string/result_scan"
+                    android:src="@drawable/ic_trash_24_primary"
+                    android:scaleType="centerCrop"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/container_solid_surface"
+                    android:orientation="vertical"
+                    app:layout_constraintEnd_toEndOf="@+id/iv_result_scan"
+                    app:layout_constraintStart_toStartOf="@+id/iv_result_scan"
+                    app:layout_constraintTop_toBottomOf="@+id/iv_result_scan">
+
+                    <TextView
+                        android:id="@+id/tv_result"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/poppins_bold"
+                        android:text="@string/result_scan"
+                        android:textColor="@color/md_theme_primary"
+                        android:textSize="24sp" />
+                </LinearLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/tv_recommendation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/recommendation"
+                    android:textColor="@color/md_theme_primary"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/poppins_medium"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/container_solid_primary"
+                    app:layout_constraintEnd_toEndOf="@+id/tv_recommendation"
+                    app:layout_constraintStart_toStartOf="@+id/tv_recommendation"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_recommendation">
+
+                    <ImageView
+                        android:id="@+id/iv_type_trash_can"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_marginTop="16dp"
+                        android:src="@drawable/ic_trash_24_primary"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:contentDescription="@string/result_scan" />
+
+                    <TextView
+                        android:id="@+id/tv_recommendation_msg"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="16dp"
+                        android:text="@string/recommendation_msg"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textAlignment="center"
+                        android:textSize="20sp"
+                        android:textColor="@color/md_theme_onPrimary"
+                        app:layout_constraintEnd_toEndOf="@+id/iv_type_trash_can"
+                        app:layout_constraintStart_toStartOf="@+id/iv_type_trash_can"
+                        app:layout_constraintTop_toBottomOf="@+id/iv_type_trash_can" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+
+    </ScrollView>
+    <ProgressBar
+        android:id="@+id/pbResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

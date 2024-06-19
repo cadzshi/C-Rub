@@ -1,19 +1,133 @@
 <resources>
-    <string name="app_name">Clean Rubbish</string>
+    <string name="app_name">C-Rub</string>
+    <string name="title_home">Home</string>
+    <string name="title_history">History</string>
+    <string name="title_profile">Profile</string>
+
+    <string name="slogan">Together for a Cleaner\nGreener Future!</string>
+    <string name="greeting_welcome">Get Started</string>
+
     <string name="landing">Landing</string>
     <string name="landing_welcome_msg">Welcome to\nC-Rub</string>
-    <string name="landing_caption_msg">Welcome to C-Rub, the best, easiest, and most effective solution for identifying and managing waste with our app. Together with C-Rub, let\'s create a cleaner and greener environment!</string>
+    <string name="landing_welcome_caption_msg">Welcome to C-Rub, the best, easiest, and \n effective solution for identifying and managing\n waste with our app. Together with C-Rub \nlet\'s create a cleaner and greener environment!</string>
+    <string name="landing_first_welcome_msg">Identify Your \nWaste</string>
+    <string name="landing_first_caption_msg">With this application, you can easily identify\n the various types of waste you have.
+        We will provide\n the best recommendations that are suitable for you\n so that you can manage more effectively\n and environmentally friendly.</string>
+    <string name="landing_second_welcome_msg">Manage\n the waste</string>
+    <string name="landing_second_caption_msg">Use our application to manage your waste better.\n Get guidance and advice on how to recycle, reduce,\n and dispose of waste in the most responsible way.\n With proper management, we can keep our environment\n clean and support the sustainability of our planet.</string>
 
-    <string name="login">Login</string>
-    <string name="register">Register</string>
-    <string name="register_msg">Let\'s Register Your \nAccount</string>
+
     <string name="name">Name</string>
-    <string name="email">Email</string>
-    <string name="password">Password</string>
+    <string name="greeting_form">Let\'s Go</string>
 
-    <string name="login_msg">Welcome Back!</string>
-    <string name="login_validation_msg">Don’t have an account yet?</string>
-    <string name="register_here">Register Here</string>
-    <string name="login_here">Login Here\n</string>
-    <string name="register_validation_msg">Already have an account?</string>
+    <string name="next">Next</string>
+    <string name="fill_form">Fill In The \nForm</string>
+
+    <string name="main_welcome_msg">Hello, %s</string>
+    <string name="scan_trash">Scan your trash here!</string>
+    <string name="main">Main</string>
+    <string name="gallery">Gallery</string>
+    <string name="camera">Camera</string>
+    <string name="scan_now">Scan now!</string>
+
+    <string name="article">Article</string>
+    <string name="title_article">Title Article</string>
+    <string name="description_article">Description Article</string>
+
+    <string name="result_scan">Result Scan</string>
+    <string name="score">Score</string>
+    <string name="recommendation">Recommendation for you</string>
+
+    <string-array name="data_photo">
+        <item>@drawable/organic_waste</item>
+        <item>@drawable/non_organic_waste</item>
+    </string-array>
+    <string-array name="data_title">
+        <item>Organic Waste</item>
+        <item>Non-Organic Waste</item>
+    </string-array>
+    <string-array name="data_description">
+        <item>
+            1. What is Organic Waste?\n
+            The definition of organic waste is waste that comes from the remains of living creatures, whether animals, plants or humans. Basically, this type of waste can decompose naturally in nature and can also be used for other things, such as compost and others.\n\n
+
+            2. Wet &amp; Dry Types of Organic Waste\n
+            Organic waste can be further divided into two types, namely dry and wet organic waste. Types of dry organic waste have little to no water content, for example tree branches, dry leaves, bones, etc. Wet organic waste has a fairly high water content, making it decompose more quickly and can decompose more quickly than dry waste. Examples of wet organic waste are leftover vegetables, fruit, etc.\n\n
+
+            3. What are the types of organic waste?\n
+            Apart from dry and wet, organic waste is divided into 5 types of waste based on its source. The five categories are:\n
+            - Food Waste\n
+            Organic food waste is generally generated at the household level, as well as in food businesses, such as restaurants and cafes. The composition includes all types of food and ingredients, starting from egg shells, vegetable tubers, fruit peels, fish and chicken bones, leftover food, as well as other materials that have been consumed or are no longer consumed. Food waste also includes cooked food that is not finished or consumed, such as rotten fruit and vegetables.\n
+            - Garden Waste\n
+            Organic waste that comes from gardens is waste whose material comes from gardens or yards, such as leaves, trees, twigs and grass left over from pruning.\n
+            - Agricultural/Farming Waste\n
+            Agricultural waste is waste resulting from processing plants, such as corn stalks, rice husks and leaves. These agricultural residues can usually be processed into compost.\n
+            - Livestock waste\n
+            Waste from livestock, such as cow and goat dung, is also included in the organic waste category.\n
+            - Waste from Body Parts\n
+            The body parts in question include nail clippings and fallen human hair as well as fur or skin from animals.\n\n
+
+            4. Effective Ways to Process Organic Waste\n
+            Organic waste can decompose naturally, but its accumulation poses environmental risks. Proper processing is essential and economical. Here are some effective methods:\n
+            - Composting\n
+            Composting reduces organic waste in landfills and prevents harmful methane emissions. Prepare organic materials and a compost bin. Use green materials (fresh leaves, grass, fruit/vegetable scraps, hair, coffee grounds) and brown materials (branches, straw, dry leaves, egg shells, paper). Shred waste for faster composting, mix green and brown materials, aerate regularly, and wait 4-6 weeks.\n
+            - Vermicomposting\n
+            Vermicomposting uses earthworms to turn organic waste into nutrient-rich compost. Earthworms consume organic materials (fruit peels, vegetable scraps, paper) and produce castings, which are rich in magnesium, phosphorus, and potassium. Surface-dwelling earthworms are most effective.\n
+            - Biogas Production\n
+            Organic waste can be converted into biogas through anaerobic bacterial digestion. Biogas, primarily methane, can be used as an alternative fuel. This process reduces greenhouse gas emissions by replacing methane with carbon dioxide.\n
+            - Black Soldier Flies (BSF)\n
+            BSF larvae efficiently reduce organic waste and can be used for compost or as a protein source for animal feed. They also produce waste that can be processed into biogas. Breeding and marketing BSF larvae is a viable business opportunity.\n\n
+            Sorting waste correctly is crucial for effective management and environmental protection.\n
+        </item>
+        <item>
+            1. What is non-organic waste\n
+            Garbage or non-organic waste is a type of waste product or residual substance that is difficult or cannot be decomposed naturally. This waste generally consists of materials such as plastic, metal, glass and paper. Because it is more difficult to decompose naturally, this type of waste takes a very long time to decompose or degrade. In fact, many of them take hundreds of years.\n
+            Overall, inorganic waste is a serious environmental problem because it takes a very long time to decompose, can pollute the environment, and has a negative impact on human health.\n\n
+
+            2. What are the types of non-organic waste\n
+            - Plastic Waste\n
+            This is a type of inorganic waste made from synthetic polymers made from petroleum or natural gas. Plastic is a material that is difficult to decompose and takes hundreds of years to degrade. Plastic also contains dangerous chemicals such as BPA and phthalates, which can have a negative impact on human health and the environment. Some examples of plastic waste are plastic bottles, plastic bags, cosmetic bottles, and food and drink containers.\n
+            - Metal Waste\n
+            Metal is a material that usually has a hard character, and consists of chemical elements such as iron, copper, aluminum, zinc, or others. Some examples of metal waste are drink cans, scrap metal, pieces of wire, used nails, and the like.\n
+            - Paper Waste\n
+            Paper waste is a type of inorganic waste consisting of unused paper. Paper is a material made from wood fiber or other plants. Paper can be recycled and reused, but if it is not processed properly, it can cause environmental damage. Examples of paper waste include used paper, magazines, newspapers, cardboard, and so on.\n
+            - Glass Waste\n
+            Glass is an inorganic material made from silica or sand, and is hard and difficult to decompose. Some examples of glass waste include bottles or drinking glasses, window glass, broken plates, and many more.\n
+            - Rubber Waste\n
+            Rubber waste is a type of waste consisting of rubber material, the source of which can be rubber tree sap or synthetic materials. Some examples of waste include used tires, broken sandals, used shoes, and so on.\n\n
+
+            3. Alternative Methods for Processing Inorganic Solid Waste\n
+            - Sanitary Landfill\n
+            Inorganic waste that cannot be recycled or converted into energy is disposed of in sanitary landfills (TPA). The waste is covered with soil or other materials to prevent odors and contamination. However, this method is not completely safe as toxic chemicals can contaminate the soil and groundwater.\n
+            - Incineration\n
+            Incineration, widely used in developed countries, involves burning waste in incinerators to convert it into ash, gas, and heat that can be used as energy. This method effectively reduces waste volume but requires careful management of exhaust gases to prevent air pollution.\n
+            - Bioremediation\n
+            Bioremediation uses specific microorganisms, such as bacteria or fungi, to treat inorganic waste that is difficult to decompose. This method, while typically used for organic waste, can also reduce the toxicity and volume of certain inorganic wastes.\n\n
+
+            Waste management is crucial for environmental sustainability, especially in industrial and business settings. It is a critical aspect of environmental management systems.\n
+        </item>
+    </string-array>
+
+
+    <string name="title_activity_result">Analysis Results</string>
+
+    <string name="profile">Profile</string>
+    <string name="profile_name">%s</string>
+
+    <string name="detail_title_article">Detail Title Article</string>
+    <string name="detail_article_description">Detail Article Description</string>
+
+    <string name="image_classifier_failed">Image classifier failed to initialize. See error logs for details</string>
+    <string name="empty_img_warning">Please enter an image first</string>
+    <string name="empty_message">There is no data</string>
+    <string name="recommendation_msg">Throw your rubbish into this type of rubbish bin</string>
+
+    <string name="change_language">Change Language</string>
+    <string name="logout">Logout</string>
+    <string name="logout_validation">Are you sure you want to Logout?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="user_prefs">user_prefs</string>
+    <string name="user_name">user_name</string>
+    <string name="default_profile_name">%s</string>
 </resources>
